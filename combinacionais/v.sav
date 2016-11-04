@@ -1,0 +1,50 @@
+[*]
+[*] GTKWave Analyzer v3.3.37 (w)1999-2012 BSI
+[*] Thu Aug 25 14:27:01 2016
+[*]
+[dumpfile] "/home/roberto/digital/adm/labs/combinacionais/v_combin.vcd"
+[dumpfile_mtime] "Thu Aug 25 14:26:38 2016"
+[dumpfile_size] 4790
+[savefile] "/home/roberto/digital/adm/labs/combinacionais/v.sav"
+[timestart] 0
+[size] 1344 621
+[pos] -1 -1
+*-17.000000 30000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] u_mux2.
+[sst_width] 210
+[signals_width] 212
+[sst_expanded] 1
+[sst_vpaned_height] 162
+@28
+s[2:0]
+s0
+s1
+s2
+@200
+-
+@28
+entr[7:0]
+esperadamux
+saidamux2
+saidamux4
+saidamux8
+@200
+-
+@28
+inp
+@22
+esperadademux[7:0]
+@28
+sdemux2[1:0]
+sdemux4[3:0]
+sdemux8[7:0]
+@200
+-
+@22
+esperadasel[7:0]
+@28
+ssel2[1:0]
+ssel4[3:0]
+ssel8[7:0]
+[pattern_trace] 1
+[pattern_trace] 0

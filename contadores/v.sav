@@ -1,0 +1,59 @@
+[*]
+[*] GTKWave Analyzer v3.3.37 (w)1999-2012 BSI
+[*] Wed Sep 10 17:42:07 2014
+[*]
+[dumpfile] "/home/roberto/digital/adm/labs/contadores/v_contador.vcd"
+[dumpfile_mtime] "Wed Sep 10 17:41:48 2014"
+[dumpfile_size] 7931
+[savefile] "/home/roberto/digital/adm/labs/contadores/v.sav"
+[timestart] 0
+[size] 1328 674
+[pos] -1 -1
+*-19.000000 100000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] u_anel.
+[sst_width] 210
+[signals_width] 170
+[sst_expanded] 1
+[sst_vpaned_height] 166
+@28
+tb_rst
+tb_rel
+@200
+-
+@22
+rassi[3:0]
+@29
+u_assi.q[3:0]
+@200
+-
+@28
+u_assi.u0.q
+u_assi.u1.q
+u_assi.u2.q
+u_assi.u3.q
+@200
+-
+-
+@22
+rsinc[3:0]
+@28
+u_sinc.q[3:0]
+u_sinc.u0.q
+u_sinc.u1.q
+u_sinc.u2.q
+u_sinc.u3.q
+@200
+-
+-
+@28
+tb_inp[3:0]
+tb_car
+rdesl[3:0]
+esperada[3:0]
+@200
+-
+-
+@28
+ranel[3:0]
+[pattern_trace] 1
+[pattern_trace] 0

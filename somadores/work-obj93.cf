@@ -1,0 +1,38 @@
+v 3
+file . "somador.vhd" "20160901172932.000" "20160901150227.883":
+  entity addbit at 9( 421) + 0 on 2025;
+  architecture estrutural of addbit at 16( 630) + 0 on 2026;
+  entity addercadeia at 47( 1714) + 0 on 2027;
+  architecture addercadeia of addercadeia at 57( 1929) + 0 on 2028;
+  entity adianta4 at 97( 3683) + 0 on 2029;
+  architecture adianta4 of adianta4 at 106( 3931) + 0 on 2030;
+  entity adderadianta4 at 145( 5562) + 0 on 2031;
+  architecture adderadianta4 of adderadianta4 at 155( 5781) + 0 on 2032;
+  entity adianta16 at 217( 8110) + 0 on 2033;
+  architecture adianta16 of adianta16 at 226( 8376) + 0 on 2034;
+  entity adderadianta16 at 273( 10291) + 0 on 2035;
+  architecture adderadianta16 of adderadianta16 at 284( 10626) + 0 on 2036;
+  entity addercsa32 at 351( 13120) + 0 on 2037;
+  architecture functional of addercsa32 at 400( 14618) + 0 on 2038;
+file . "packageWires.vhd" "20160901171116.000" "20160901150226.932":
+  package p_wires at 9( 444) + 0 on 2009 body;
+  package body p_wires at 49( 2098) + 0 on 2010;
+file . "aux.vhd" "20140319000554.000" "20160901150227.039":
+  entity inv at 16( 668) + 0 on 2011;
+  architecture comport of inv at 24( 832) + 0 on 2012;
+  entity and2 at 35( 1168) + 0 on 2013;
+  architecture comport of and2 at 43( 1339) + 0 on 2014;
+  entity and3 at 53( 1697) + 0 on 2015;
+  architecture comport of and3 at 61( 1872) + 0 on 2016;
+  entity or2 at 73( 2237) + 0 on 2017;
+  architecture comport of or2 at 81( 2405) + 0 on 2018;
+  entity or3 at 90( 2759) + 0 on 2019;
+  architecture comport of or3 at 98( 2931) + 0 on 2020;
+  entity xor2 at 110( 3294) + 0 on 2021;
+  architecture comport of xor2 at 118( 3465) + 0 on 2022;
+  entity xor3 at 127( 3822) + 0 on 2023;
+  architecture comport of xor3 at 135( 3997) + 0 on 2024;
+file . "tb_somador.vhd" "20160901180223.000" "20160901150228.179":
+  entity tb_somador at 8( 446) + 0 on 2039;
+  architecture tb of tb_somador at 15( 550) + 0 on 2040;
+  configuration cfg_tb at 174( 6492) + 0 on 2041;

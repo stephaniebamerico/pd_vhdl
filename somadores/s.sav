@@ -1,0 +1,68 @@
+[*]
+[*] GTKWave Analyzer v3.3.37 (w)1999-2012 BSI
+[*] Sun Nov  4 22:31:19 2012
+[*]
+[dumpfile] "/home/roberto/digital/adm/labs/somadores/v_somador.vcd"
+[dumpfile_mtime] "Sun Nov  4 22:30:59 2012"
+[dumpfile_size] 57832
+[savefile] "/home/roberto/digital/adm/labs/somadores/s.sav"
+[timestart] 0
+[size] 1126 478
+[pos] 0 123
+*-19.411135 4034700 1000000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 210
+[signals_width] 134
+[sst_expanded] 1
+[sst_vpaned_height] 112
+@22
+inpa[15:0]
+inpb[15:0]
+@29
+addsub
+@200
+-
+@22
+esp_res[15:0]
+@28
+esp_vai
+@200
+-
+@22
+rescad[15:0]
+@28
+vaicad
+@200
+-
+@22
+resad4[15:0]
+@28
+vaiad4
+@200
+-
+@c00022
+resad16[15:0]
+@28
+(0)resad16[15:0]
+(1)resad16[15:0]
+(2)resad16[15:0]
+(3)resad16[15:0]
+(4)resad16[15:0]
+(5)resad16[15:0]
+(6)resad16[15:0]
+(7)resad16[15:0]
+(8)resad16[15:0]
+(9)resad16[15:0]
+(10)resad16[15:0]
+(11)resad16[15:0]
+(12)resad16[15:0]
+(13)resad16[15:0]
+(14)resad16[15:0]
+(15)resad16[15:0]
+@1401200
+-group_end
+@28
+vaiad16
+@200
+-
+[pattern_trace] 1
+[pattern_trace] 0

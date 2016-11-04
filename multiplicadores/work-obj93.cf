@@ -1,0 +1,45 @@
+v 3
+file . "tb_multiplicador.vhd" "20160906200129.000" "20160906170136.810":
+  entity tb_multiplicador at 9( 426) + 0 on 880;
+  architecture tb of tb_multiplicador at 15( 542) + 0 on 881;
+  configuration cfg_tb at 90( 2851) + 0 on 882;
+file . "aux.vhd" "20160905114003.000" "20160906170135.595":
+  entity inv at 10( 406) + 0 on 846;
+  architecture comport of inv at 18( 570) + 0 on 847;
+  entity and2 at 29( 906) + 0 on 848;
+  architecture comport of and2 at 37( 1077) + 0 on 849;
+  entity and3 at 47( 1415) + 0 on 850;
+  architecture comport of and3 at 55( 1590) + 0 on 851;
+  entity or2 at 67( 1935) + 0 on 852;
+  architecture comport of or2 at 75( 2103) + 0 on 853;
+  entity or3 at 84( 2438) + 0 on 854;
+  architecture comport of or3 at 92( 2610) + 0 on 855;
+  entity xor2 at 104( 2954) + 0 on 856;
+  architecture comport of xor2 at 112( 3125) + 0 on 857;
+  entity xor3 at 121( 3463) + 0 on 858;
+  architecture comport of xor3 at 129( 3638) + 0 on 859;
+file . "packageWires.vhd" "20160906191809.000" "20160906170135.438":
+  package p_wires at 5( 229) + 0 on 844 body;
+  package body p_wires at 54( 2313) + 0 on 845;
+file . "somador.vhd" "20160906152443.000" "20160906170135.842":
+  entity addbit at 9( 421) + 0 on 860;
+  architecture estrutural of addbit at 16( 630) + 0 on 861;
+  entity addercadeia at 47( 1714) + 0 on 862;
+  architecture addercadeia of addercadeia at 57( 1929) + 0 on 863;
+  entity adianta4 at 97( 3683) + 0 on 864;
+  architecture adianta4 of adianta4 at 106( 3931) + 0 on 865;
+  entity adderadianta4 at 145( 5562) + 0 on 866;
+  architecture adderadianta4 of adderadianta4 at 155( 5781) + 0 on 867;
+  entity adianta16 at 217( 8110) + 0 on 868;
+  architecture adianta16 of adianta16 at 226( 8376) + 0 on 869;
+  entity adderadianta16 at 273( 10291) + 0 on 870;
+  architecture adderadianta16 of adderadianta16 at 284( 10626) + 0 on 871;
+  entity addercsa32 at 351( 13120) + 0 on 872;
+  architecture functional of addercsa32 at 400( 14608) + 0 on 873;
+  architecture structural of addercsa32 at 419( 15066) + 1 on 874;
+file . "multiplicador.vhd" "20160906184122.000" "20160906170136.519":
+  entity m_p_1 at 9( 418) + 0 on 875;
+  architecture funcional of m_p_1 at 17( 690) + 0 on 876;
+  entity mult16x16 at 42( 1445) + 0 on 877;
+  architecture funcional of mult16x16 at 53( 1864) + 0 on 878;
+  architecture estrutural of mult16x16 at 64( 2263) + 1 on 879;

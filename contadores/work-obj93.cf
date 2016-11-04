@@ -1,0 +1,38 @@
+v 3
+file . "contador.vhd" "20160927191909.000" "20160927162818.066":
+  entity contassincrono4 at 9( 415) + 0 on 1713;
+  architecture estrutural of contassincrono4 at 16( 552) + 0 on 1714;
+  entity contsincrono4 at 43( 1384) + 0 on 1715;
+  architecture estrutural of contsincrono4 at 50( 1517) + 0 on 1716;
+  entity contanel4 at 89( 2633) + 0 on 1717;
+  architecture estrutural of contanel4 at 96( 2758) + 0 on 1718;
+  entity regdesloc4 at 124( 3671) + 0 on 1719;
+  architecture estrutural of regdesloc4 at 132( 3844) + 0 on 1720;
+file . "packageWires.vhd" "20160927191255.000" "20160927162817.836":
+  package p_wires at 9( 444) + 0 on 1691 body;
+  package body p_wires at 50( 2128) + 0 on 1692;
+file . "aux.vhd" "20140910173003.000" "20160927162817.943":
+  entity inv at 17( 743) + 14 on 1693;
+  architecture comport of inv at 25( 878) + 0 on 1694;
+  entity and2 at 36( 1214) + 0 on 1695;
+  architecture comport of and2 at 44( 1385) + 0 on 1696;
+  entity and3 at 54( 1743) + 0 on 1697;
+  architecture comport of and3 at 62( 1918) + 0 on 1698;
+  entity or2 at 74( 2283) + 0 on 1699;
+  architecture comport of or2 at 82( 2451) + 0 on 1700;
+  entity or3 at 91( 2805) + 0 on 1701;
+  architecture comport of or3 at 99( 2977) + 0 on 1702;
+  entity xor2 at 111( 3340) + 0 on 1703;
+  architecture comport of xor2 at 119( 3511) + 0 on 1704;
+  entity xor3 at 128( 3868) + 0 on 1705;
+  architecture comport of xor3 at 136( 4043) + 0 on 1706;
+  entity mux2 at 147( 4398) + 0 on 1707;
+  architecture estrut of mux2 at 155( 4557) + 0 on 1708;
+  entity ffd at 183( 5425) + 0 on 1709;
+  architecture funcional of ffd at 192( 5580) + 0 on 1710;
+  entity fft at 217( 6145) + 0 on 1711;
+  architecture funcional of fft at 226( 6303) + 0 on 1712;
+file . "tb_contador.vhd" "20160927192814.000" "20160927162818.198":
+  entity tb_contador at 9( 406) + 0 on 1721;
+  architecture tb of tb_contador at 14( 469) + 0 on 1722;
+  configuration cfg_tb at 132( 3468) + 0 on 1723;
